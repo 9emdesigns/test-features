@@ -11,6 +11,7 @@ main {
   padding: 0;
   box-sizing: border-box;
   background-color: red;
+  overflow: hidden;
 }
 
 .mobile {
@@ -37,13 +38,11 @@ nav ol {
   color: snow;
 }
 .coke {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
+  position: relative;
+  right: -520px;
   width: 50%;
   height: auto;
-  object-fit: cover;
-  transform: translate(30px, 700px) rotate(-30deg);
+  transform: translate(-130%, -10%) rotate(-40deg);
   border: 1px solid blue;
   z-index: 5;
 }
