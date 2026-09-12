@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+.mobile {
+  height: 100svh;
+  width: 100svw;
+  background-color: red;
+  padding: 0;
+  margin: 0;
+}
+
+nav ol {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  list-style: none;
+  font-size: clamp(16px, 2dvw, 34px);
+  color: snow;
+}
+.text {
+  text-align: justify;
+  width: 100%;
+  padding: 0rem 1rem;
+  font-size: clamp(16px, 2dvw, 34px);
+  color: snow;
+}
+.coke {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  transform: translate(30px, 700px) rotate(-30deg);
+  border: 1px solid blue;
+  z-index: 5;
+}
